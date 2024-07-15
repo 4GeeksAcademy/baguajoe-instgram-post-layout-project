@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.post {
+    max-width: 600px;
+    background-color: white;
+}
+
+.post-pic {
+    width: 100%;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
