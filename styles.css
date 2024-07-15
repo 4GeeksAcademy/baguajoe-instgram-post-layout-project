@@ -16,8 +16,41 @@ body {
     width: 100%;
 }
 
-p {
+.post-body > p {
     padding-left: 15px;
     padding-right: 15px;
+} 
+
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px; 
+    margin-top: 5px;
 }
 
+.icon-group {
+    display: flex;
+    gap: 10px; 
+}
+
+.post-icons span {
+    margin-left: auto;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+}
+.post-header > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px ;
+}
+.post-header p {
+    margin: 0;
+}
+.post-header span {
+    margin-left: auto;
+}
