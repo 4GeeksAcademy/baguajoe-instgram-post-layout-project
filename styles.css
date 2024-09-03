@@ -41,7 +41,7 @@ body {
 .post-header {
     display: flex;
     align-items: center;
-    padding: 4px 8px;
+    padding: 10px ;
 }
 .post-header > div {
     display: flex;
